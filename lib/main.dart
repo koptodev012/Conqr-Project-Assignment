@@ -1,4 +1,6 @@
-import 'package:conqr_assignment/views/splash%20screen/splash_screen.dart';
+
+import 'package:conqr_assignment/views/user_screen/match_detail_screen.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SizeTransitionExample(),
+      home: const MatchDetailScreen(),
     );
   }
 }
